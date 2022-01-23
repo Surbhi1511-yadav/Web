@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to left, #fc466b,#3f5efb);
+}
+form{
+    height:28rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.08);
+    box-shadow: 0 8px 32px 0 rgb(2, 0, 0);
+    border-left: 2px solid rgba(255,255,255,.3);
+    border-top: 2px solid rgba(255,255,255,.3);
+    border-radius: 30px;
+}
+form::before{
+    content: '';
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background:rgb(243, 99, 188);
+    right:30%;
+    bottom: 8%;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .7;
+}
+form::after{
+    content: '';
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background:rgb(243, 99, 188);
+    left:33%;
+    top: 9%;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .7;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+    letter-spacing: 3px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    opacity: .7;
+}
+label{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+    margin-left:10%;
+    font-size: 20px;
+    opacity: .8;
+}
+input{
+    outline: none;
+    width:80%;
+    border:none;
+    font-size: 20px;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid rgba(255,255,255,.6);
+}
+button{
+    font-size: 20px;
+    width:50%;
+    margin: 3% auto;
+    padding: 10px 20px;
+    color: rgba(255,255,255,.7);
+    border: none;
+    outline: none;
+    background: transparent;
+    background:rgba(255,255,255,0.08);
+    box-shadow: 0 8px 32px 0 rgb(2, 0, 0,.5);
+    border-left: 2px solid rgba(255,255,255,.3);
+    border-top: 2px solid rgba(255,255,255,.3);
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+    opacity: .8;
+    cursor: pointer;
+}
+a{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    opacity: .7;
+}
+a:hover{
+    color: black;
+}
+.btn:hover{
+    background-color: transparent;
+    color: black;
+    border:1px solid black;
+
+}
